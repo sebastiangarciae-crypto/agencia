@@ -1,4 +1,5 @@
 public class Hotel {
+   
     private String nombre;
     private String ubicacion;
     private double precioNoche;
