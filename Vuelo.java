@@ -39,3 +39,15 @@ public class Vuelo {
     public void mostrarInfo(String mensajePersonalizado) {
         System.out.println(mensajePersonalizado + " " + nombre);
     }
+
+    // Método añadido: actualizar la ubicación del vuelo
+    public void actualizarUbicacion(String nuevaUbicacion) {
+        if (nuevaUbicacion == null || nuevaUbicacion.trim().isEmpty()) {
+            System.out.println("Ubicación inválida. No se realizó ningún cambio.");
+            return;
+        }
+        ubicacion = nuevaUbicacion;
+        System.out.println("Ubicación actualizada a: " + ubicacion);
+    }
+
+}
