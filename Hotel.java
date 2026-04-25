@@ -7,6 +7,7 @@ public class Hotel{
     String numero_habitaciones;
     String oe;
     string l;
+    String sipp;
     
     
     public Hotel(String hotelNombre, String hotelDireccion, String hotelTelefono, String hotelCorreo, String habitacionesnum ) {
@@ -43,6 +44,9 @@ public class TiposHotel{
   private int estrellas;
     private String tipo; // Ej: "Resort", "Boutique", "Negocios"
     private double precioPorNoche;
+    String oelo;
+    String aveces;
+    String celular;
 
     public TiposHotel(String nombre, String direccion, String telefono, String correo,
                       int habitaciones, int estrellas, String tipo, double precio) {
@@ -56,6 +60,11 @@ public class TiposHotel{
     public int getEstrellas() { return estrellas; }
     public String getTipo() { return tipo; }
     public double getPrecioPorNoche() { return precioPorNoche; }
+
+
+
+
+
 
     @Override
     public void mostrarInfo() {
