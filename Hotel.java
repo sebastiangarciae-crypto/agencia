@@ -35,6 +35,9 @@ public class Hotel{
         System.out.println("Informacion hotel: " + getInfo());
     }
 
+}
+
+public class TiposHotel{
 
 }
 
