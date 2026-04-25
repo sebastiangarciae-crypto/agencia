@@ -61,6 +61,11 @@ public class TiposHotel{
     public String getTipo() { return tipo; }
     public double getPrecioPorNoche() { return precioPorNoche; }
 
+
+
+
+
+
     @Override
     public void mostrarInfo() {
         super.mostrarInfo();
