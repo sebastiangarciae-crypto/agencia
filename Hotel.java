@@ -43,6 +43,9 @@ public class TiposHotel{
   private int estrellas;
     private String tipo; // Ej: "Resort", "Boutique", "Negocios"
     private double precioPorNoche;
+    String oelo;
+    String aveces;
+    String celular;
 
     public TiposHotel(String nombre, String direccion, String telefono, String correo,
                       int habitaciones, int estrellas, String tipo, double precio) {
