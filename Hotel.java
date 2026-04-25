@@ -6,6 +6,7 @@ public class Hotel{
     protected String correo_hotel;
     String numero_habitaciones;
     String oe;
+    string l;
     
     
     public Hotel(String hotelNombre, String hotelDireccion, String hotelTelefono, String hotelCorreo, String habitacionesnum ) {
