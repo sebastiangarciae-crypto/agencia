@@ -7,6 +7,7 @@ public class Hotel{
     String numero_habitaciones;
     String oe;
     string l;
+    String sipp;
     
     
     public Hotel(String hotelNombre, String hotelDireccion, String hotelTelefono, String hotelCorreo, String habitacionesnum ) {
