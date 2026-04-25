@@ -5,6 +5,8 @@ public class Hotel{
     protected String telefono_hotel;
     protected String correo_hotel;
     String numero_habitaciones;
+    String oe;
+    string l;
     
     
     public Hotel(String hotelNombre, String hotelDireccion, String hotelTelefono, String hotelCorreo, String habitacionesnum ) {
@@ -38,7 +40,30 @@ public class Hotel{
 }
 
 public class TiposHotel{
+  private int estrellas;
+    private String tipo; // Ej: "Resort", "Boutique", "Negocios"
+    private double precioPorNoche;
 
+    public TiposHotel(String nombre, String direccion, String telefono, String correo,
+                      int habitaciones, int estrellas, String tipo, double precio) {
+        
+        super(nombre, direccion, telefono, correo, habitaciones);
+        this.estrellas = estrellas;
+        this.tipo = tipo;
+        this.precioPorNoche = precio;
+    }
+
+    public int getEstrellas() { return estrellas; }
+    public String getTipo() { return tipo; }
+    public double getPrecioPorNoche() { return precioPorNoche; }
+
+    @Override
+    public void mostrarInfo() {
+        super.mostrarInfo();
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Estrellas: " + estrellas);
+        System.out.println("Precio por noche: $" + precioPorNoche);
+    }
 }
 
 
